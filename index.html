@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vyacheslav KARNEICHIK - CV</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            /* Dark blue/grey for text */
+            --accent-color: #3498db;
+            /* Blue for accents */
+            --light-grey: #ecf0f1;
+            /* Very light grey for background */
+            --medium-grey: #bdc3c7;
+            /* Medium grey for borders */
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 30px;
+            background-color: var(--light-grey);
+            color: var(--primary-color);
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 900px;
+            width: 100%;
+            background: #fff;
+            padding: 40px 50px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+            color: var(--primary-color);
+            margin-bottom: 5px;
+            font-size: 2.8em;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 0.95em;
+            color: #555;
+        }
+
+        .contact-info p {
+            margin: 3px 0;
+        }
+
+        .contact-info a {
+            color: var(--accent-color);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contact-info a:hover {
+            color: var(--primary-color);
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--accent-color);
+            border-bottom: 2px solid var(--medium-grey);
+            padding-bottom: 8px;
+            margin-top: 35px;
+            margin-bottom: 20px;
+            font-size: 1.6em;
+            font-weight: 600;
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section-content {
+            margin-left: 0;
+            /* Align content directly under heading */
+        }
+
+        .section-content p {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        /* Skills specific styling */
+        .skills-list {
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            /* Space between skill tags */
+            margin-top: 10px;
+        }
+
+        .skill-tag {
+            background-color: var(--accent-color);
+            color: white;
+            padding: 6px 12px;
+            border-radius: 5px;
+            font-size: 0.9em;
+            font-weight: 600;
+            white-space: nowrap;
+            /* Keep skill names on one line */
+        }
+
+        .languages-table,
+        .education-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        .languages-table td,
+        .education-table td {
+            padding: 12px 15px;
+            border: 1px solid var(--light-grey);
+            vertical-align: top;
+            font-size: 0.95em;
+        }
+
+        .languages-table td:first-child,
+        .education-table td:first-child {
+            font-weight: 600;
+            width: 140px;
+            color: var(--primary-color);
+            background-color: #f8f8f8;
+            /* Slightly different background for labels */
+        }
+
+        .languages-table td:last-child,
+        .education-table td:last-child {
+            color: #444;
+        }
+
+        /* Experience specific styling */
+        .experience-item {
+            margin-bottom: 25px;
+            padding-left: 15px;
+            border-left: 3px solid var(--accent-color);
+        }
+
+        .experience-item h3 {
+            font-family: 'Montserrat', sans-serif;
+            margin-top: 0;
+            margin-bottom: 8px;
+            color: var(--primary-color);
+            font-size: 1.2em;
+            font-weight: 600;
+            border-bottom: none;
+            /* Removed inner border */
+        }
+
+        .experience-item p {
+            margin: 0;
+            font-size: 0.95em;
+            color: #555;
+        }
+
+        .experience-item ul {
+            margin-top: 10px;
+        }
+
+        .experience-item ul li {
+            font-size: 0.92em;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Vyacheslav KARNEICHIK</h1>
+        <div class="contact-info">
+            <p>
+                <script>
+                    (function () {
+                        var a = "pchala";
+                        var b = "gmail.com";
+                        var c = a + "@" + b;
+                        document.write('<a href="mailto:' + c + '">' + c + '</a>');
+                    })();
+                </script>
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Summary</h2>
+            <div class="section-content">
+                <p>Highly experienced Technical Lead and Software Engineer with a solid background in embedded systems and hardware design.
+                    Proven expertise in leading teams to develop and deliver complex firmware and software solutions.
+                    Skilled in the entire project lifecycle, from initial hardware design collaboration to full test automation and continuous integration.</p>
+            </div>
+            <div class="skills-list">
+                <span class="skill-tag">C/C++</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">MicroPython</span>
+                <span class="skill-tag">GitLab</span>
+            </div>
+
+        </div>
+
+
+        <div class="section">
+            <h2>LANGUAGES</h2>
+            <div class="section-content">
+                <table class="languages-table">
+                    <tr>
+                        <td>English, Russian</td>
+                        <td>Full Professional Proficiency</td>
+                    </tr>
+                    <tr>
+                        <td>French, Dutch</td>
+                        <td>Limited Working Proficiency</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>EXPERIENCE</h2>
+            <div class="section-content">
+                <div class="experience-item">
+                    <h3>2020-Present - Cochlear (Belgium) - Senior Firmware & Automation Engineer, Team Lead</h3>
+                    <ul>
+                        <li>Coached and led a team of six in the development of embedded software and Python-based projects.</li>
+                        <li>Managed the full project lifecycle, from planning to implementation.</li>
+                        <li>Developed firmware for ASICs containing MCU and DSP cores using (Keil C, Synopsys)</li>
+                        <li>Implemented a test hardware control system on an RP2040 (MicroPython)</li>
+                        <li>Contributed to Python-based tools and frameworks for ASIC validation.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <h3>2015-2020 - STMicroelectronics (Belgium) - Senior Embedded Software Engineer</h3>
+                    <ul>
+                        <li>MIFARE Technical Coordinator.</li>
+                        <li>Developed MIFARE libraries for Secure Microcontrollers (Keil C, Visual Studio).</li>
+                        <li>Implemented new versions of specifications and ported to new devices.</li>
+                        <li>Provided customer support for MIFARE and LPU libraries integration.</li>
+                        <li>Implemented FIPS 202 (SHA-3 Keccak) and Noekeon. Refactored legacy code.</li>
+                        <li>Achieved full test automation with Jenkins and Python scripts.</li>
+                        <li>Contributed to Common Criteria Certification.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <h3>2014-2015 - SONY (Belgium) - Senior Software Engineer</h3>
+                    <ul>
+                        <li>Improved telemetry gathering service (tracking 18M devices), implemented automated test and deploy system, reducing deployment time from days to one hour.</li>
+                        <li>Performed S.M.A.R.T. HDD Data analysis with R, leading to reduced spare unit stock and improved shortage prediction.</li>
+                        <li>Investigated BI tools (MicroStrategy) and Amazon AWS (EC2, S3, VPC ...), Hadoop, Hive, EMR, CloudFormation, Python boto, Jenkins.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <h3>2010-2014 - SONY (Belgium) - Senior Software Engineer - Music Unlimited</h3>
+                    <ul>
+                        <li>Developed PS3 client audio drivers in C, JavaScript application, including tests and test automation.</li>
+                        <li>Organized testing and reviews for iOS and Windows 8 clients.</li>
+                        <li>Ported and tested a DRM engine in C (Android NDK), and an application in Java (JNI) for Android client.</li>
+                        <li>Developed JavaScript-based prototypes using Eclipse; implemented tests and test automation.</li>
+                        <li>Ported and tested a DRM engine in C, and middleware components in C for PSP client; implemented tests and test automation.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <h3>2008-2009 - SONY (Belgium) - Senior Software Test Engineer - Media Go Windows 7 Middleware</h3>
+                    <ul>
+                        <li>Wrote automated tests for DRM, Playback, Installation, and upgrade. Maintained test DRM server.</li>
+                        <li>Utilized Microsoft Visual Studio, AutoIt, Jenkins, Tomcat, Java.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <h3>2004-2007 - SONY (Belgium) - Senior Software Test Engineer - LocationFree</h3>
+                    <ul>
+                        <li>Ported Streaming server and Client to Linux, including porting of tests for Linux server/client.</li>
+                        <li>Tested LF-PK1 - Windows PC client.</li>
+                        <li>Tested playback and fast zapping using Microsoft Visual Studio.</li>
+                        <li>Wrote automated test suite for Sony Ericsson Symbian client using CodeWarrior for Symbian OS.</li>
+                        <li>Implemented tests for PSP client in a GNU C-like environment.</li>
+                        <li>Tested various drivers (UPNP, CompactFlash) for LF-X1/LF-X5 on MIPS, VxWorks, Tornado platforms.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <h3>2003-2004 - SONY (Belgium) - Software Test Engineer - Embedded Library Testing</h3>
+                    <ul>
+                        <li>Developed test specifications and implementations on diverse platforms: MIPS, Intel Celeron, and ARM.</li>
+                        <li>Implemented a board broker to share CPU boards between tests on MontaVista Linux.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <h3>2001-2003 - RECIF S.A. (France) - Embedded Software Engineer</h3>
+                    <ul>
+                        <li>Developed firmware for 200mm and 300mm wafer handling robots using Keil C, CAN, SEMI SECS.</li>
+                        <li>Wrote programs for test-beds of separate robot units.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>EDUCATION</h2>
+            <div class="section-content">
+                <table class="education-table">
+                    <tr>
+                        <td>1992-1997</td>
+                        <td>Belarusian State University - M.S. in Applied Mathematics (Economical Cybernetics)</td>
+                    </tr>
+                    <tr>
+                        <td>2011</td>
+                        <td>Scrum Alliance, Scrum Master Certification</td>
+                    </tr>
+                    <tr>
+                        <td>2016</td>
+                        <td>ISTQB Certified Tester, Foundation Level</td>
+                    </tr>
+                    <tr>
+                        <td>2020</td>
+                        <td>Moniteur Sportif "Initiateur"</td>
+                    </tr>
+                    <tr>
+                        <td>2025</td>
+                        <td>Google Project Management</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+</body>
+
+</html>
